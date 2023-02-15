@@ -1,0 +1,8 @@
+Start Zookeeper
+F:\kafka_2.13-2.8.1\bin\windows>zookeeper-server-start.bat F:\kafka_2.13-2.8.1\config\zookeeper.properties
+
+Start Kafka Broker
+F:\kafka_2.13-2.8.1\bin\windows>kafka-server-start.bat F:\kafka_2.13-2.8.1\config\server.properties
+
+Start Consuming from test-topic
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test-topic --from-beginning
