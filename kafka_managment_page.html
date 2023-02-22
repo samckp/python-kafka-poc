@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kafka User Management Portal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kafka User Management Portal</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#users">Users</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#access">Access Control</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="users">
+        <h2>Manage Users</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Create User</button>
+        </form>
+        <table>
+          <thead>
+            <tr>
+              <th>Username</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Display list of users -->
+          </tbody>
+        </table>
+      </section>
+      <section id="permissions">
+        <h2>Manage Permissions</h2>
+        <!-- Display list of permissions and roles -->
+      </section>
+      <section id="access">
+        <h2>Manage Access Control</h2>
+        <!-- Display options for managing access to Kafka resources -->
+      </section>
+    </main>
+    <footer>
+      <p>Kafka User Management Portal &copy; 2023</p>
+    </footer>
+  </div>
+</body>
+</html>
