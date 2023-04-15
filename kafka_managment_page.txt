@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kafka Management Tool</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kafka Management Tool</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#consumers">Consumers</a></li>
+        <li><a href="#producers">Producers</a></li>
+        <li><a href="#config">Configuration</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="dashboard">
+        <!-- Content for dashboard page -->
+      </section>
+      <section id="topics">
+        <!-- Content for topics page -->
+      </section>
+      <section id="consumers">
+        <!-- Content for consumers page -->
+      </section>
+      <section id="producers">
+        <!-- Content for producers page -->
+      </section>
+      <section id="config">
+        <!-- Content for config page -->
+      </section>
+    </main>
+    <footer>
+      <p>Kafka Management Tool &copy; 2023</p>
+    </footer>
+  </div>
+</body>
+</html>
+In this examp
