@@ -2,7 +2,7 @@
 #----------------------------------
 Produce message in every 5 second
 
-#Kraft setup commands  :
+#Kraft mode setup commands  :
 1. Generate UUID
 ./bin/kafka-storage.sh random-uuid
 
