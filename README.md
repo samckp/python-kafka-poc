@@ -1,4 +1,4 @@
-# python-kafka-poc
+# Python-Kafka-POC
 #----------------------------------
 Produce message in every 5 second
 
