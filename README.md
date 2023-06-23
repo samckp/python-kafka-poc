@@ -12,4 +12,4 @@ Produce message in every 5 second
 3. Its ready to start broker in Kraft mode (without zookeeper)
 ./bin/kafka-server-start.sh config/kraft/server.properties
 
------------------------------------
+------------------------------------------
