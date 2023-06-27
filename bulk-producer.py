@@ -8,7 +8,7 @@ topic = 'mytopic'
 
 #bulk messages 
 bulk_msgs = [
-    {'id': i, 'name': f'User {i}'} for i in range(100000)
+    {'id': i, 'name': f'User {i}'} for i in range(100)
 ]
 
 producer_config = {
@@ -28,6 +28,7 @@ def push_messages(messages):
     producer = KafkaProducer(**producer_config)
 
     for msg in messages:
+        print(msg)
         producer.send(topic, json.dumps(msg).encode('utf-8'))
 
     producer.flush()
